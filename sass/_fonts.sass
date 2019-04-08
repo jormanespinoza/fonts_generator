@@ -1,0 +1,24 @@
+/*
+    * Structure:
+    *   $fonts: ([fontName]. [fontFileName], [fontStyle], [fontWeight])
+    * Add many fonts as need it...
+    *   $fonts: (), () ... ()
+*/
+$fonts: (AkkuratPro, AkkuratPro-Regular, normal, normal)
+
+@each $fontName, $fontFileName, $fontStyle, $fontWeight in $fonts
+	@font-face
+		font-family: '#{$fontName}'
+		src: url('fonts/custom-fonts/#{$fontFileName}.eot')
+		/* IE9 Compat Modes */
+		src: url('fonts/custom-fonts/#{$fontFileName}.eot?#iefix') format('embedded-opentype'),
+		/* IE6-IE8 */
+		url('fonts/custom-fonts/#{$fontFileName}.woff') format('woff'),
+		/* Modern Browsers */
+		url('fonts/custom-fonts/#{$fontFileName}.ttf') format('truetype'),
+		/* Safari, Android, iOS */
+		url('fonts/custom-fonts/#{$fontFileName}.svg##{$fontName}') format('svg')
+		/* Legacy iOS */
+		font-style: #{$fontStyle}
+		font-weight: #{$fontWeight}
+		text-rendering: optimizeLegibility
