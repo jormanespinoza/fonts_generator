@@ -1,1 +1,7 @@
-/* FONTS */
+@font-face { font-family: "fontName"; src: url("fonts/custom-fonts/.eot"); /* IE9 Compat Modes */ src: url("fonts/custom-fonts/.eot?#iefix") format("embedded-opentype"), url("fonts/custom-fonts/.woff") format("woff"), url("fonts/custom-fonts/.ttf") format("truetype"), url("fonts/custom-fonts/.svg#fontName") format("svg"); /* Legacy iOS */ text-rendering: optimizeLegibility; }
+
+@font-face { font-family: "fontFileName"; src: url("fonts/custom-fonts/.eot"); /* IE9 Compat Modes */ src: url("fonts/custom-fonts/.eot?#iefix") format("embedded-opentype"), url("fonts/custom-fonts/.woff") format("woff"), url("fonts/custom-fonts/.ttf") format("truetype"), url("fonts/custom-fonts/.svg#fontFileName") format("svg"); /* Legacy iOS */ text-rendering: optimizeLegibility; }
+
+@font-face { font-family: "fontStyle"; src: url("fonts/custom-fonts/.eot"); /* IE9 Compat Modes */ src: url("fonts/custom-fonts/.eot?#iefix") format("embedded-opentype"), url("fonts/custom-fonts/.woff") format("woff"), url("fonts/custom-fonts/.ttf") format("truetype"), url("fonts/custom-fonts/.svg#fontStyle") format("svg"); /* Legacy iOS */ text-rendering: optimizeLegibility; }
+
+@font-face { font-family: "fontWeight"; src: url("fonts/custom-fonts/.eot"); /* IE9 Compat Modes */ src: url("fonts/custom-fonts/.eot?#iefix") format("embedded-opentype"), url("fonts/custom-fonts/.woff") format("woff"), url("fonts/custom-fonts/.ttf") format("truetype"), url("fonts/custom-fonts/.svg#fontWeight") format("svg"); /* Legacy iOS */ text-rendering: optimizeLegibility; }
